@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#nvm{
+    color: #fff;
+    width: 100vw;
+}
+
+#imagem{
+    width: 3vw;
+}
+
+#searcher{
+    width: 45vw;
+}
+
+#drop{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 4;
+    max-width: 200px;
+    width: 200px;
+    list-style-type: none;
+    padding: 0;
+    transition: 0.3s;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+#drop a:hover{
+    background-color: red;
+}
+
+#dropmenu:hover #drop{
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 0 5px 20px 0 black;
+}
