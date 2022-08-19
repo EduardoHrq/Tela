@@ -16,7 +16,7 @@ body{
 }
 
 #imagem{
-    width: 3vw;
+    width: 2vw;
 }
 
 #searcher{
@@ -32,8 +32,8 @@ body{
     width: 200px;
     list-style-type: none;
     padding: 0;
-    transition: 0.3s;
-    transition: box-shadow 0.5s ease-in-out;
+    transition: 0.5s;
+    
 }
 
 #drop a:hover{
@@ -44,4 +44,40 @@ body{
     visibility: visible;
     opacity: 1;
     box-shadow: 0 5px 20px 0 black;
+}
+
+#teste{
+    height: 50vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#cart:hover #drop{
+    visibility: visible;
+    opacity: 1;
+    box-shadow: 0 5px 20px 0 black;
+}
+
+#contanav{
+    visibility: hidden;
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    z-index: 4;
+    left: 79.5vw;
+}
+
+#contanav input{
+    transition: box-shadow 0.2s ease-in-out;
+
+}
+
+#contanav input:hover{
+    box-shadow: 0 0 0 2px aqua;
+}
+
+#login:hover #contanav{
+    visibility: visible;
 }
