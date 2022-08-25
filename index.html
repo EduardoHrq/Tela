@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Good Deal!</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body class="bg-light w-100 h-100 text-center d-flex flex-column justify-content-start">
-    <h1>teste</h1>
     <div id="navm" class="w-100">   
         <nav class="navbar navbar-expand-lg bg-dark text-white w-100" id="arrumar">
             <div class="d-flex w-100">
@@ -47,7 +46,7 @@
 
                     <div>
                         <form class="d-flex" role="search">
-                            <input class="form-control me-2" id="searcher" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control me-2" id="searcher" type="search" placeholder="Pesquisar" aria-label="Search">
                             <button class="btn bg-info" type="submit"><img src="./src/Vector.svg" style="width: 2vw;" alt=""></button>
                         </form>
                     </div>
@@ -57,26 +56,24 @@
                             <img src="./src/cart.svg" class="img-fluid" id="imagem" alt="">
                             <ul id="drop" class="bg-light rounded text-dark text-center" style="left: 82vw;">
                                 <p class="p-1">0 itens no carrinho</p>
-                                <p>R$ 0,00</p>
+                                <p>Total R$ 0,00</p>
                             </ul>
                         </div>
                         <div class="d-inline" id="login">
                             <img src="./src/circle-user.svg" class="img-fluid mx-4" id="imagem" alt="">
                             <form id="contanav" class="bg-light rounded d-flex flex-column justify-content-center align-items-center">
-                                <div class="px-4 py-2">
-                                    <label for="" class="form-label text-dark">Usuário</label>
+                                <div class="px-8 py-2">
+                                    <label for="" class="form-label text-dark">Cadastro<br>Usuário</label>
                                     <input class="form-control text-center rounded" type="text" placeholder="Usuario" required>
                                 </div>
-                                <div class="px-4 py-2">
-                                    <label for="" class="form-label text-dark">senha</label>
+                                <div class="px-8 py-4">
+                                    <label for="" class="form-label text-dark">Senha</label>
                                     <input class="form-control text-center rounded" type="password" placeholder="Senha" required>
                                 </div>
                                 <button class="btn bg-info mt-3 w-50" type="submit">Entrar</button>
                             </form>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </nav>
@@ -97,6 +94,154 @@
         </button>
       </div>
 
-      <h1>Produtos principais</h1>
+      <br>
+
+  <form action="conteudo" style="padding: 0px 150px;">
+
+    <h1>EM PROMOÇÃO</h1>
+
+      <br>
+
+      <div class="row row-cols-md-4 g-10">
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/mouse.jpg" class="card-img-top" id="vendas" alt="mouse">
+            <div class="card-body">
+                <h5 class="card-title">Mouse Gamer Warrior</h5>
+                <p class="card-text">De R$ 79,90 Por R$ 69,90</p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/teclado.webp" class="card-img-top" id="vendas" alt="teclado">
+            <div class="card-body">
+                <h5 class="card-title">Teclado Mecânico Redragon</h5>
+                <p class="card-text">De R$ 299,90 Por R$ 249,90</p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/monitor.jpg" class="card-img-top" id="vendas" alt="monitor">
+            <div class="card-body">
+              <h5 class="card-title">Monitor Gamer Gamemax</h5>
+              <p class="card-text">De R$ 999,90 Por R$ 749,90</p>
+              <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/headset.webp" class="card-img-top" id="vendas" alt="headset">
+            <div class="card-body">
+              <h5 class="card-title">Headset Gamer Hyperx</h5>
+              <p class="card-text">De R$ 249,90 Por R$ 199,90</p>
+              <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <h1>RECOMENDADOS PARA VOCÊ</h1>
+
+      <br>
+
+      <div class="row row-cols-md-4 g-10">
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/processador.jpg" class="card-img-top" id="vendas" alt="processador">
+            <div class="card-body">
+                <h5 class="card-title">Processador Intel Core I7</h5>
+                <p class="card-text">De R$ 1.999,90 Por R$ 1.499,90</p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/ssd.jpg" class="card-img-top" id="vendas" alt="ssd">
+            <div class="card-body">
+                <h5 class="card-title">SSD Gigabyte 240GB</h5>
+                <p class="card-text">De R$ 249,90 Por R$ 199,90</p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/watercooler.jpg" class="card-img-top" id="vendas" alt="watercooler">
+            <div class="card-body">
+              <h5 class="card-title">Water Cooler RGB Chione</h5>
+              <p class="card-text">De R$ 349,90 Por R$ 299,90</p>
+              <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/placamae.png" class="card-img-top" id="vendas" alt="placamae">
+            <div class="card-body">
+              <h5 class="card-title">Placa Mãe Amd Am4 Asus Prime</h5>
+              <p class="card-text">De R$ 799,90 Por R$ 649,90</p>
+              <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <h1>MAIS VENDIDOS</h1>
+
+      <br>
+
+      <div class="row row-cols-md-4 g-10">
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/fansrgb.jpg" class="card-img-top" id="vendas" alt="fansrgb">
+            <div class="card-body">
+                <h5 class="card-title">Kit Fans RGB Warrior</h5>
+                <p class="card-text">De R$ 149,90 Por R$ 99,90</p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/fonte.png" class="card-img-top" id="vendas" alt="fonte">
+            <div class="card-body">
+                <h5 class="card-title">Fonte Gamemax 850w RGB</h5>
+                <p class="card-text">De R$ 899,90 Por R$ 749,90</p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/hd.png" class="card-img-top" id="vendas" alt="hd">
+            <div class="card-body">
+              <h5 class="card-title">HD 1TB Western Digital</h5>
+              <p class="card-text">De R$ 349,90 Por R$ 299,90</p>
+              <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card align-items-center display: flex flex-direction: flex-column align-items-center">
+            <img src="src/memoriaram.png" class="card-img-top" id="vendas" alt="memoriaram">
+            <div class="card-body">
+              <h5 class="card-title">Memória RAM DDR4 8GB Crucial</h5>
+              <p class="card-text">De R$ 249,90 Por R$ 199,90</p>
+              <a href="#" class="btn btn-primary">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
 </body>
 </html>

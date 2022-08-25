@@ -9,7 +9,6 @@ body{
     height: 100vh;
 }
 
-
 #nvm{
     color: #fff;
     width: 100vw;
@@ -33,7 +32,6 @@ body{
     list-style-type: none;
     padding: 0;
     transition: 0.5s;
-    
 }
 
 #drop a:hover{
@@ -49,7 +47,6 @@ body{
 #teste{
     height: 50vh;
     display: flex;
-
     align-items: center;
     justify-content: center;
 }
@@ -71,7 +68,6 @@ body{
 
 #contanav input{
     transition: box-shadow 0.2s ease-in-out;
-
 }
 
 #contanav input:hover{
@@ -80,4 +76,9 @@ body{
 
 #login:hover #contanav{
     visibility: visible;
+}
+
+#vendas{
+    width: 10vw;
+    height: 10vh;
 }
